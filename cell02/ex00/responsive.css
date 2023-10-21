@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    padding: 5px;
+    box-sizing: border-box; /* includes padding and borders in the element's total w and h */
+}
+table {
+    width: 100%;
+    border-collapse: collapse; /* remove spacing between cells */
+    height: 100%;
+}
+td {
+    border: 1px solid black;
+    width: 50%;
+    vertical-align: middle;
+    text-align: left;
+    padding: 5px;
+}
+.left_col {
+    background-color: yellow;
+}
+.right_col {
+    background-color: cyan;
+}
