@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse; /* remove spacing between cells */
+        }
+        td {
+            border: 1px solid black;
+            height: 50px;
+            vertical-align: middle;
+            text-align: left;
+            padding: 5px;
+        }
+        .left_col {
+            background-color: yellow;
+        }
+        .right_col {
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="left_col">Left cell</td>
+            <td class="right_col">Right cell</td>
+        </tr>
+    </table>
+</body>
+</html>
