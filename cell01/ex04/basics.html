@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basics</title>
+<style>
+body {
+	background-color: pink;
+}
+h1 {
+	color: white;
+	text-align: center;
+}
+img {
+	max-width: 50%;
+	max-height: 101px;
+}
+.col {
+	flex: 50%;
+	padding: 10px;
+}
+.row {
+	display: flex;
+}
+.copyright {
+	font: monospace;
+	font-style: italic;
+	text-align: right;
+	padding: 5px;
+}
+</style>
+  </head>
+  <body>
+	  <h1>My special char is $</h1>
+	  <div class="row">
+		  <div class="col">
+			  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Media_Markt_logo.svg/2560px-Media_Markt_logo.svg.png" alt="MediaMarkt">
+			  <p>
+				  <a href="https://www.mediamarkt.de/">MediaMarkt</a>
+		  	</p>
+		  </div>
+		  <div class="col">
+		  	<img src="https://landshutpark.de/wp-content/uploads/2020/03/shop-logos_saturn-300x300.png" alt="Saturn">
+			<p>
+				<a href="https://www.saturn.de/">Saturn</a>
+		  	</p>
+		  </div>
+	</div>
+	<hr>
+    <footer>
+        <p class="copyright">
+            © tfregni 
+            <script>document.write( new Date().getFullYear() );</script>
+        </p>
+    </footer>
+  </body>
+</html>
